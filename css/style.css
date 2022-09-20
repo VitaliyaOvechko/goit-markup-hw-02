@@ -50,18 +50,10 @@ body  {
         letter-spacing: 0.02em;
         color: var(--main-color);   
 }
-.header-mail {
-        ont-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--second-main-color);
-}
-
-.header-tel {
+.header-contact {
         font-weight: 500;
         font-size: 14px;
-        line-height: 11.14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--second-main-color);
 }
@@ -97,12 +89,8 @@ h1 {
 .header-link:focus {
         color: var(--accent-color);
 }
-.header-mail:hover,
-.header-mail:focus {
-        color: var(--accent-color);
-}
-.header-tel:hover,
-.header-tel:focus {
+.header-contact:hover,
+.header-contact:focus {
         color: var(--accent-color);
 }
 
@@ -134,7 +122,6 @@ h1 {
         text-transform: uppercase;
 }
 .fundamental-text {
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -198,24 +185,15 @@ h1 {
         letter-spacing: 0.03em; 
         color: var(--white)
 }
-.footer-mail{
+.footer-contact {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-    }
-.footer-tel {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-}   
-.footer-mail:hover,
-.footer-mail:focus {
-        color: var(--accent-color);
 }
-.footer-tel:hover,
-.footer-tel:focus {
+
+.footer-contact:hover,
+.footer-contact:focus {
         color: var(--accent-color);
 }
 
@@ -227,7 +205,7 @@ h1 {
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.63;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--main-color);
@@ -245,12 +223,12 @@ h1 {
 .project-title {
         font-weight: 700;
         font-size: 18px;                
-        line-height: 36px;
+        line-height: 2;
         letter-spacing: 0.06em;
 }
 .project-text {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.88;
         letter-spacing: 0.03em;
         color: var(--second-main-color);
 }
